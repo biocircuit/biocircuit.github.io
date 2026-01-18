@@ -1,0 +1,192 @@
+h1{
+    font-size: 100px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #202020;
+    margin: 50px 0 0 0;
+    padding: 0;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.exo-2-regular {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.exo-2-medium {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Navigation styles */
+ul {
+  list-style-type: none;   /* removes bullets */
+  margin: 0;
+  padding: 0;
+  display: flex;           /* makes the items line up horizontally */
+  justify-content: center; /* centers the nav bar */
+}
+
+ul li {
+  margin: 0 50px; /* spacing between items */
+}
+
+ul li a {
+  text-decoration: none; /* remove underline */
+  color: #202020;          /* link color */
+  font-family: "Exo 2", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.section-divider {
+  border: none;                    /* remove default HR styling */
+  height: 4px;                     /* thickness */
+  background-color: #202020;     /* color */
+  width: 10%;                      /* length of the line */
+  margin: 50px auto 55px auto;               /* vertical spacing + center alignment */
+}
+
+.section-divider_logbook {
+  border: none;                    /* remove default HR styling */
+  height: 4px;                     /* thickness */
+  background-color: #202020;     /* color */
+  width: 10%;                      /* length of the line */
+  margin: 60px auto 55px auto;               /* vertical spacing + center alignment */
+}
+
+/* Blog paragraph styling */
+.blog-paragraph {
+  text-align: left;
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  color: #303030;
+  max-width: 1200px;
+  margin-top: 15px;
+  margin-bottom: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 1.6;
+}
+
+/* Log entry date */
+.entry-date {
+  text-align: left;
+  font-family: "Exo 2", sans-serif;
+  font-size: 20px;
+  color: #505050;
+  max-width: 1200px;
+  margin-top: 70px;
+  margin-bottom: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+
+/* Review title */
+.review-title {
+  text-align: left;
+  font-family: "Lato", sans-serif;
+  font-size: 32px;
+  color: #303030;
+  max-width: 800px;
+  margin-top: 80px;
+  margin-bottom: 15px;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+/* Review author */
+.review-author {
+  text-align: left;
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  color: #303030;
+  max-width: 800px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+/* Review entry */
+.review-entry {
+  text-align: left;
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  color: #303030;
+  max-width: 800px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: auto;
+  margin-left: 0;
+  line-height: 1.6;
+}
+
+#homeButton {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-family: 'Exo 2', sans-serif;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 1000;
+}
+
+#homeButton:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.image-row-1,
+.image-row-2 {
+  display: flex;               /* make it a flex container */
+  justify-content: center;     /* center the images horizontally */
+  align-items: flex-start;     /* align them at the top */
+  gap: 100px;                  /* spacing between the images */
+  margin-top: 100px;           /* space from the top */
+}
+
+.picture_1,
+.picture_2,
+.picture_3,
+.picture_4 {
+  width: 42%;    /* or any desired size */
+  height: auto;
+}
+
+.review-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px; /* space between image and text */
+  max-width: 1200px;
+  margin: 40px auto; /* centers the container */
+}
+
+.review-book-1 {
+  margin-top: 88px;
+  width: 25.5%;
+  height: auto;
+}
+
+.review-text {
+  max-width: 60%;
+}
